@@ -22,7 +22,6 @@ class functions{
         }
      }
 }
-
 public class calculator {
     public static void main(String[] args) {
         functions c=new functions();
