@@ -14,7 +14,7 @@ class functions{
      void mul(double a,double b){
         System.out.println(a*b);
      }
-     void div(double a,double b){
+     void div(int a,int b){
         if(b==0){
             System.out.println("Cannot divided by zero");
         }else{
@@ -32,5 +32,6 @@ public class calculator {
         c.mul(10,5);
         c.mul(10,2.5);
         c.div(10,5);
+        c.div(10, 0);
     }
 }
