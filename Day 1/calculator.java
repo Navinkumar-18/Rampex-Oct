@@ -15,7 +15,11 @@ class functions{
         System.out.println(a*b);
      }
      void div(double a,double b){
-        System.out.println(a/b);
+        if(b==0){
+            System.out.println("Cannot divided by zero");
+        }else{
+            System.out.println(a/b);
+        }
      }
 }
 
