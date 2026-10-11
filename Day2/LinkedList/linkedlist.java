@@ -2,7 +2,7 @@ package Day2.LinkedList;
 import java.util.*;
 public class linkedlist {
     public static void main(String[]  args){
-        LinkedList<Integer> l=new LinkedList<>();
+        LinkedList<Integer> l=new LinkedList<>(Arrays.asList());
         l.add(10);
         l.add(20);
         l.add(30);
@@ -15,6 +15,15 @@ public class linkedlist {
         l.removeLast();//15 10 20
         l.remove(1);//15 20
         System.out.println(l);
-        
+        l.clear();
+        l.add(10);
+        l.add(20);
+        l.add(30);
+        System.out.println(l.contains(20));
+        System.out.println(l.indexOf(30));
+        l.set(1,15);
+        System.out.println(l.size());
+        l.clear();
+        System.out.println(l.isEmpty());
     }
 }
