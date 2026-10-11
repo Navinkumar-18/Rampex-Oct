@@ -9,11 +9,10 @@ public class rotateRight {
                 a.add(sc.nextInt());
         }
         System.out.println(a);
-        
             int last=a.get(a.size()-1);
             a.add(0,last);
             a.remove(a.size()-1);
-        
         System.out.println(a);
+        sc.close();
     }
 }
