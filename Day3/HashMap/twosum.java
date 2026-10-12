@@ -7,7 +7,7 @@ public class twosum {
         int target=9;
         for(int i=0;i<arr.length;i++){
              if(map.containsKey(target-arr[i])){
-                System.out.println(map.get(target-arr[i])+" "+i);break;
+                System.out.println(map.get(target-arr[i])+" "+i);return;
              }
 
             map.put(arr[i], i);
