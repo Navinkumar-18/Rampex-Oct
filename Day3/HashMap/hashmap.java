@@ -16,6 +16,16 @@ public class hashmap {
         System.out.println(hm.size());
         System.out.println(hm.get(105));
         System.out.println(hm.getOrDefault(105, "Not Found"));
+        //Traverse the hashMap
+        for(int key:hm.keySet()){
+              System.out.println(key);
+        }
+        for(String name:hm.values()){
+            System.out.println(name);
+        }
+        for(var entry:hm.entrySet()){
+            System.out.println(entry.getKey()+"="+entry.getValue());
+        }
 
     }
 }
