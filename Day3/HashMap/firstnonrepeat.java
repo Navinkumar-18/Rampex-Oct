@@ -17,5 +17,4 @@ public class firstnonrepeat {
                  System.out.println(c);return;
            }
        }
-
     }}
