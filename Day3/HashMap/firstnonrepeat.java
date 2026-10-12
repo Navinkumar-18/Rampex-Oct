@@ -9,8 +9,7 @@ public class firstnonrepeat {
            if(map.containsKey(i)){
                 map.put(i,map.get(i)+1);
            }else{
-                map.put(i, 1);
-                
+                map.put(i, 1); 
              }
            } 
            for(char c:ch){
