@@ -1,7 +1,6 @@
 import java.util.*;
-
 public class Throw {
-         public static void main(String[] args) {
+         public static void main(String[] args) throws IllegalArgumentException{
             Scanner sc=new Scanner(System.in);
             int age=sc.nextInt();sc.close();
             if(age<18){
