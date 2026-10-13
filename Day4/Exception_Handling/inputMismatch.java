@@ -1,4 +1,4 @@
-package Day4;
+
 import java.util.*;
 public class inputMismatch {
     public static void main(String[] args) {
