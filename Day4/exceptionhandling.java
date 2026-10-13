@@ -6,7 +6,7 @@ public class exceptionhandling {
         try{
             System.out.println(a/b);
         }catch(Exception e){
-            System.out.println("Cannot be divided by 0  ");
+            System.out.println(e.getMessage());
         }
         System.out.println("Program completed");
     }
