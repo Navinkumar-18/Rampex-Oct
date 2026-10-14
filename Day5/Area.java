@@ -1,5 +1,4 @@
 package Day5;
-
  interface AreaShape{
     void area(int num);
 }
@@ -13,7 +12,6 @@ class Circle implements AreaShape{
         System.out.println(3.14*rad*rad);
     }
 }
-
 public class Area{
     public static void main(String[] args) {
         Square s=new Square();
