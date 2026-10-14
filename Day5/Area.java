@@ -7,12 +7,12 @@ class Square implements AreaShape{
         System.out.println(sq*sq);
       }
 }
-class Circle implements AreaShape{
+ class Circle implements AreaShape{
     public void area(int rad){
         System.out.println(3.14*rad*rad);
     }
 }
-public class Area{
+ class Area{
     public static void main(String[] args) {
         Square s=new Square();
         Circle c=new Circle();

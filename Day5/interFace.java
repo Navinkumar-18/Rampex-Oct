@@ -1,7 +1,4 @@
 package Day5;
-
-import javax.swing.plaf.synth.SynthDesktopIconUI;
-
 /**
  * Greeting
  */
